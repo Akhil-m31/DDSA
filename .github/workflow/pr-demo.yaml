@@ -1,11 +1,11 @@
 name: PR review trigger
 
 on: 
-  pull-request:
+  pull_request:
 
 jobs:
   demo:
-      runs_on: ubuntu_latest
+      runs-on: ubuntu_latest
 
       steps:
         - name: Say Hello
